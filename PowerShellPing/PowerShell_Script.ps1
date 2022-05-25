@@ -1,14 +1,14 @@
 ### Mandatory - If any attributes added or removed in the plugin, increment the plugin version here to update the plugins template.
-$version = 1  
+$version = 1.69  
 
 ### Mandatory - Setting this to true will alert you when there is a communication problem while posting plugin data to server
 $heartbeat = "true" 
 
 ### OPTIONAL - Display name to be displayed in Site24x7 client
-$displayname = "Process Monitor"
+$displayname = "PSite24x7 Client Process Viewer"
 
 ### Variable for IP address/hostname of server
-$ipAddress = "8.8.8.8"
+$ipAddress = "8.8.4.4"
 
 ### The Get-Data method contains Sample data. Replace you code logic to populate the monitoring data
 Function Get-Data()  
